@@ -1,21 +1,16 @@
 
-/**
-* -------------
-* Global Styles
-* -------------
-*/
-
-body {
-  /* Default font family and font color */
-}
-
 p, li, textarea, label, input, select {
-  /* Default font size and line height */
+  color: #231f20;
+  font-size: 16px;
+  font-family: 'Poppins';
 }
+
+
 
 .header-title {
   margin: 8px 0;
   padding: 15px;
+  font-family: 'Poppins'
   font-size: 88px;
   background-color: #fcce00bd;
   color: #ffffff;
@@ -27,78 +22,150 @@ p, li, textarea, label, input, select {
 .header-subtitle {
   margin: 8px 0;
   padding: 15px;
+  font-family: 'Poppins';
   font-size: 38px;
-  background-color: #FF6B00BD;
+  background-color: #ff6b00bd;
   color: #ffffff;
   text-align: center;
   font-weight: 900;
   line-height: 1;
-
 }
 
 .header-stripe--red {
   height: 32px;
-  background-color:#e02020bd;
-  margin: 8px 0;
+  background-color: #e02020bd;
 }
 
 .header-stripe--purple {
   height: 16px;
-  background-color: #b620E0;
+  background-color: #b620e0;
   margin: 8px 0;
 }
 
 .header-stripe--blue {
   height: 8px;
-  background-color: #6236FF;
+  background-color: #6236ff;
   margin: 8px 0;
 }
 
-h1 {
-   /* Default font, size, and margins */
+.content-title {
+  font-family: 'Poppins';
+  font-weight: 900;
+  text-align: center;
+  font-size: 40px;
+  margin: 64px 56px;
 }
 
-h2 {
-  /* Default font, size, and margins */
+.colonnes {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
 }
 
-h3 {
-  /* Default font, size, and margins */
+.bloc-text-ordinateur-1 {
+  flex-basis: 0;
+  flex-grow: 1;
 }
 
-h4 {
-  /* Default font, size, and margins */
+.titre-ordinateur-1 {
+  font-size: 24px;
+  margin: 0 31px 34px 0;
+  font-family: 'Poppins';
+  text-align: center;
+  font-weight: 600;
 }
 
-h5 {
-  /* Default font, size, and margins */
+.paragraphe-ordinateur-1 {
+  text-align: justify;
+  margin-left:48px;
+  margin-right: 32px;
+  margin-bottom: 30px;
+  font-family: 'Poppins';
+  font-size: 16px;
+  color: #231f20;
 }
 
-h6 {
-  /* Default font, size, and margins */
+.bouton-ordinateur-1 {
+  padding: 10px 36px;
+  border-radius: 15px;
+  border: solid 4px;
+  color: #fcce00;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 503px;
+  margin-top: 30px;
+  margin-right: 32px;
+  margin-bottom: 86px;
+  text-align: right;
+}
+
+.bloc-image-ordinateur-1 {
+  background-image: url(../img/bg-yellow.png);
+}
+
+.image-ordinateur-1 {
+  width: 487px;
+  height: 471px;
+  margin-top: 40px;
+  margin-left: 223px;
+  display: block;
+  mix-blend-mode: darken;
+  margin-left: auto;
+}
+
+.colonnes-2{
+  flex-basis: 0;
+  flex-grow: 1;
+}
+
+.bloc-image-ordinateur-2 {
+  background-image: url(../img/bg-orange.png);
+}
+
+.titre-ordinateur-2 {
+  font-size: 24px;
+  margin: 0 31px 34px 0;
+  font-family: Poppins;
+  text-align: center;
+  font-weight: 600;
+}
+
+.paragraphe-ordinateur-2 {
+  font-family: 'Poppins';
+  font-size: 16px;
+  color: #231f20;
+  margin-left: 33px;
+}
+
+.image-ordinateur-2 {
+  width: 378px;
+  height: 486px;
+  object-fit: contain;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  mix-blend-mode: darken;
+}
+
+.bouton-ordinateur-2 {
+  padding: 10px 36px;
+  border-radius: 15px;
+  border: solid 4px;
+  color: #ff6b00;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 1208px;
+  margin-top: 1362px;
+  margin-right: 47px;
+  margin-bottom: 86px;
+  text-align: right;
 }
 
 
-a {
-  /* Link color */
-}
-
-a:hover {
-  /* Link color on mouse over */
-}
 
 
-/**
-* ------
-* Layout
-* ------
-*/
+  
 
 
 
 
-/**
-* ----------
-* Components
-* ----------
-*/
