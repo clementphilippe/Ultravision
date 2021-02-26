@@ -257,6 +257,81 @@ text-align: justify;
   margin: 32px 32px;
 }
 
+.game_content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0; 
+  opacity: 0;
+  transition: opacity 300ms;  
+
+}
+
+.game:hover .game__content {
+  opacity: 1;
+}
+
+.game__content {
+  transition: opacity 300ms, transform 300ms;
+  transform: translateY(5px);
+}
+
+.game:hover .game__content {
+  transform: translateY(0)
+}
+
+.game__category {
+  font-family: 'Poppins';
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: white;
+  text-align: center;
+}
+
+.game__title {
+  font-family: 'Poppins';
+  font-size: 32px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fcce00;
+  text-align: center;
+}
+
+.game__title-2 {
+  font-family: 'Poppins';
+  font-size: 32px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ff6b00;
+  text-align: center;
+}
+
+.game__description {
+  font-family: 'Poppins';
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: white;
+}
+
 
 
 
