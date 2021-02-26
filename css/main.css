@@ -5,7 +5,30 @@ p, li, textarea, label, input, select {
   font-family: 'Poppins';
 }
 
+.bg-black {
+  background-color: #231f20;
+}
 
+.titre-blanc {
+  text-align: center;
+  font-family: 'Poppins';
+  font-size: 40px;
+  font-weight: 900;
+  color: #ffffff;
+  padding-top: 64px;
+}
+
+.titre-noir {
+  text-align: center;
+  font-family: 'Poppins';
+  font-size: 40px;
+  font-weight: 900;
+  color: #231f20;
+  padding-top: 64px;
+}
+
+
+/*CSS HEADER */
 
 .header-title {
   margin: 8px 0;
@@ -48,13 +71,7 @@ p, li, textarea, label, input, select {
   margin: 8px 0;
 }
 
-.content-title {
-  font-family: 'Poppins';
-  font-weight: 900;
-  text-align: center;
-  font-size: 40px;
-  margin: 64px 56px;
-}
+/*CSS It’s a COMPUTER, it’s a COLOR TV, it’s an ARCADE. */
 
 .colonnes {
   display: flex;
@@ -62,9 +79,23 @@ p, li, textarea, label, input, select {
   align-items: stretch;
 }
 
-.bloc-text-ordinateur-1 {
+.bloc-texte-ordinateur-1 {
   flex-basis: 0;
   flex-grow: 1;
+}
+
+.bloc-image-ordinateur-1 {
+  background-image: url(../img/bg-yellow.png);
+}
+
+.image-ordinateur-1 {
+  width: 487px;
+  height: 471px;
+  margin-top: 40px;
+  margin-left: 223px;
+  display: block;
+  mix-blend-mode: darken;
+  margin-left: auto;
 }
 
 .titre-ordinateur-1 {
@@ -99,19 +130,6 @@ p, li, textarea, label, input, select {
   text-align: right;
 }
 
-.bloc-image-ordinateur-1 {
-  background-image: url(../img/bg-yellow.png);
-}
-
-.image-ordinateur-1 {
-  width: 487px;
-  height: 471px;
-  margin-top: 40px;
-  margin-left: 223px;
-  display: block;
-  mix-blend-mode: darken;
-  margin-left: auto;
-}
 
 .colonnes-2{
   flex-basis: 0;
@@ -134,7 +152,9 @@ p, li, textarea, label, input, select {
   font-family: 'Poppins';
   font-size: 16px;
   color: #231f20;
-  margin-left: 33px;
+  margin-left: 48px;
+  margin-right: 32px;
+  margin-bottom: 30px;
 }
 
 .image-ordinateur-2 {
@@ -161,27 +181,31 @@ p, li, textarea, label, input, select {
   text-align: right;
 }
 
-.advance {
-  font-family: 'Poppins', sans-serif;
-  font-size: 40px;
-  color: black;
-  letter-spacing: normal;
-  text-align: center;
+/*CSS ADVANCE FEATURES */
+
+.bloc-advance-features {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  text-align: justify;
 }
 
-.bloc3 {
-display: flex;
-justify-content: space-around;
-align-items: stretch;
-text-align: justify;
-}
+.colonne-background-rouge {
+  background-image: url(../img/bg-red.png);
+  text-align: left;
+  }
 
-.colonnebackground3 {
-    background-image: url(../img/bg-red.png);
+.colonne-background-violet {
+    background-image: url(../img/bg-violet.png);
     text-align: left;
   }
 
-  .ordinateur-3 {
+.colonne-background-bleu {
+      background-image: url(../img/bg-blue.png);
+      text-align: left;
+    }
+
+.ordinateur-section-advance-features {
     width: 745px;
     height: 576px;
     object-fit: contain;
@@ -189,7 +213,7 @@ text-align: justify;
     mix-blend-mode: darken;
   }
 
-  .titre4{
+.titre-section-advance-features {
   width: 640px;
   height: 45px;
   font-size: 32px;
@@ -204,7 +228,14 @@ text-align: justify;
   margin-top: 64px;
 }
 
-  .bouton-3 {
+.texte-section-advance-features {
+  font-size: 20px;
+  margin-bottom: 32px;
+  padding-left: 60px;
+  color: #ffffff;
+}
+
+.bouton-section-advance-features {
     padding: 10px 36px;
     border-radius: 15px;
     border: solid 4px;
@@ -216,39 +247,9 @@ text-align: justify;
     margin-right: 32px;
     margin-bottom: 86px;
     text-align: right;
-  }
-
-  .texte3{
-  font-size: 20px;
-  margin-bottom: 32px;
-  padding-left: 60px;
-  color: #ffffff;
 }
 
-.colonnebackground4 {
-    background-image: url(../img/bg-violet.png);
-    text-align: left;
-  }
-
-  .colonnebackground5 {
-      background-image: url(../img/bg-blue.png);
-      text-align: left;
-    }
-
-
-
-.bg-black {
-  background-color: #231f20;
-}
-
-.titre-blanc {
-  text-align: center;
-  font-family: 'Poppins';
-  font-size: 40px;
-  font-weight: 900;
-  color: #ffffff;
-}
-
+/*CSS Latest releases */
 
 .grille{
 	display: grid;
@@ -327,6 +328,44 @@ text-align: justify;
   margin-right: 20px;
   margin-left: 20px;
 }
+
+/*CSS Contact */
+
+.contact {
+  font-family: 'Poppins';
+  color: #231f20;
+  border-radius: 4px;
+  
+}
+
+label {
+  display: block;
+}
+
+.bloc-formulaire {
+  display: flex;
+  color: #ffffff;
+}
+
+.formulaire-row {
+  padding: 0px;
+  padding-bottom: 28px;
+  padding-right: 0px;
+  padding-left: 8px;
+}
+
+.formulaire-row-2 {}
+
+.colonne-formulaire-1 {
+  margin-right: 64px;
+  margin-left: 248px;
+}
+
+.colonne-formulaire-2 {
+  margin-right: auto;
+}
+
+
 
 
 

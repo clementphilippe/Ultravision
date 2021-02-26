@@ -18,7 +18,7 @@
 <body>
 
 
-
+<!--HEADER-->
 
 <div class="header">
     <h1 class="header-title header-stripe">ULTRAVISION</h1>
@@ -28,8 +28,9 @@
     <div class="header-stripe header-stripe--blue"></div>
 </div>
 
+<!--SECTION It’s a COMPUTER, it’s a COLOR TV, it’s an ARCADE.-->
 
-<h2 class="content-title">It’s a COMPUTER, it’s a COLOR TV, it’s an ARCADE.</h2>
+<h2 class="titre-noir">It’s a COMPUTER, it’s a COLOR TV, it’s an ARCADE.</h2>
 
 <div class="colonnes">
   <div class="bloc-texte-ordinateur-1">
@@ -41,10 +42,10 @@
       
   <p><a class="bouton-ordinateur-1" href="#">learn more</a></p>
   </div>
+
   <div class="bloc-image-ordinateur-1">
     <img class="image-ordinateur-1" src="./img/ordinateur-1.png">
-  </div>
-  
+  </div>  
 </div>
 
 
@@ -68,49 +69,54 @@
   </div>
 </div>
 
-<h3 class="advance">ADVANCE FEATURES :</h3>
+<!--SECTION ADVANCE-->
 
-<div class= "bloc3 colonnebackground3">
- <div class= "colonnes3 colonnestexte3">
-   <h3 class="titre4">An arcade</h3>
-   <p class="texte3">Two 16-position arcade style joysticks <br> and dual stereo headphone jacks,</p>
-<p><a class="bouton-3">learn more</a></p>
+<h2 class="titre-noir">ADVANCE FEATURES:</h2>
+
+<div class= "bloc-advance-features colonne-background-rouge">
+ <div class= "colonnes-advance-features texte-colonnes-advance-features">
+   <h3 class="titre-section-advance-features">An arcade</h3>
+   <p class="texte-section-advance-features">Two 16-position arcade style joysticks <br> and dual stereo headphone jacks,</p>
+<p><a class="bouton-section-advance-features">learn more</a></p>
 
 </div>
-<div class= "colonnes3">
+<div class= "colonnes-section-advance-features">
 <img src="img/feature-1.png"
-     class="ordinateur-3">
+     class="ordinateur-section-advance-features">
 </div>
 </div>
 
-<div class= "bloc3 colonnebackground4">
- <div class= "colonnes3 colonnestexte3">
-   <h3 class="titre4">A color tv</h3>
-   <p class="texte3">A full-fledged 9" color television,<br> complete with 84 channel support</p>
-<p><a class="bouton-3">learn more</a></p>
+<div class= "bloc-advance-features colonne-background-violet">
+ <div class= "colonnes-advance-features texte-colonnes-advance-features">
+   <h3 class="titre-section-advance-features">A color tv</h3>
+   <p class="texte-section-advance-features">A full-fledged 9" color television,<br> complete with 84 channel support</p>
+<p><a class="bouton-section-advance-features">learn more</a></p>
 
 </div>
-<div class= "colonnes3">
+<div class= "colonnes-section-advance-features">
 <img src="img/feature-2.png"
-     class="ordinateur-3">
+     class="ordinateur-section-advance-features">
 </div>
 </div>
 
-<div class= "bloc3 colonnebackground5">
- <div class= "colonnes3 colonnestexte3">
-   <h3 class="titre4">A computer</h3>
-   <p class="texte3">Monitor can be directly connected to<br> computer peripherals. </p>
-<p><a class="bouton-3">learn more</a></p>
+<div class= "bloc-advance-features colonne-background-bleu">
+ <div class= "colonnes-advance-features texte-colonnes-advance-features">
+   <h3 class="titre-section-advance-features">A computer</h3>
+   <p class="texte-section-advance-features">Monitor can be directly connected to<br> computer peripherals. </p>
+<p><a class="bouton-section-advance-features">learn more</a></p>
 
 </div>
-<div class= "colonnes3">
+<div class= "colonnes-section-advance-features">
 <img src="img/feature-3.png"
-     class="ordinateur-3">
+     class="ordinateur-section-advance-features">
 </div>
 </div>
 
 <div class="bg-black">
-  <h3 class="titre-blanc">Latest releases</h3>
+
+  <!--SECTION LATEST RELEASES-->
+
+  <h2 class="titre-blanc">Latest releases</h2>
 
   <div class="grille">
     <div class="game">
@@ -239,29 +245,49 @@
           </div>
         </div>
         </div> 
- 
-    
-    
-    <h3 class="titre-blanc">Contact</h3>
-    <form method="POST" action="traitement.html">
-      <label for="nom">Name</label>
-      <input type="text" id="name" name="name"/>
-      <br>
-    
-      <label for="msg">Message</label>   
-      <textarea id="msg" name="message"></textarea>
-    
-      <br>
-      <input type="submit" value="Send"/>
-    </form>
-  
-  </div>
+   
+<!--SECTION CONTACT-->
 
-  
+    <h2 class="titre-blanc">Contact</h2>
+        <div class="bloc-formulaire">
+          <div class="contact">
+            <div class="colonne-formulaire-1">
+              <div class="formulaire-row">
+                <form>
+                  <label for="name">Name</label>
+                  <input type="text" id="name" placeholder="Name">
+                </form>
+              </div>
+              <div class="formulaire-row">
+                <form>
+                  <select name="Billing questions" size="1">
+                    <option>Billing questions</option>
+                    <option>Option 2</option>
+                    <option>Option 3</option>
+                  </select>
+                </form>
+              </div>
+              <div class="formulaire-row">                
+                <label for="email">Email</label>
+                <input type="text" id="email" placeholder="Email"> 
+              </div>
+            </div>            
+          </div>
+          <div class="colonne-formulaire-2">
+            <div class="formulaire-row-2">
+              <form>
+                <label for="message">Message</label>
+                <textarea name="message" id="message"></textarea>
+              </form>
+            </div>
+          </div>
+
+
+        </div>
+    
+    </div> 
+  </div>  
 </div>
-
-
-
 </div>
 </body>
 </html>
