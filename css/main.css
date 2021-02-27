@@ -15,7 +15,7 @@ p, li, textarea, label, input, select {
   font-size: 40px;
   font-weight: 900;
   color: #ffffff;
-  padding-top: 64px;
+  padding-top: 15px;
 }
 
 .titre-noir {
@@ -24,16 +24,15 @@ p, li, textarea, label, input, select {
   font-size: 40px;
   font-weight: 900;
   color: #231f20;
-  padding-top: 64px;
+  padding-top: 10px;
 }
-
 
 /*CSS HEADER */
 
 .header-title {
   margin: 8px 0;
   padding: 15px;
-  font-family: 'Poppins'
+  font-family: 'Poppins';
   font-size: 88px;
   background-color: #fcce00bd;
   color: #ffffff;
@@ -79,13 +78,14 @@ p, li, textarea, label, input, select {
   align-items: stretch;
 }
 
-.bloc-texte-ordinateur-1 {
-  flex-basis: 0;
-  flex-grow: 1;
+.bloc {
+flex-basis: 0;
+flex-grow: 1;
 }
 
-.bloc-image-ordinateur-1 {
+.bloc-bg-jaune {
   background-image: url(../img/bg-yellow.png);
+
 }
 
 .image-ordinateur-1 {
@@ -98,15 +98,8 @@ p, li, textarea, label, input, select {
   margin-left: auto;
 }
 
-.titre-ordinateur-1 {
-  font-size: 24px;
-  margin: 0 31px 34px 0;
-  font-family: 'Poppins';
-  text-align: center;
-  font-weight: 600;
-}
+.paragraphe-section-computer-color-arcade {
 
-.paragraphe-ordinateur-1 {
   text-align: justify;
   margin-left:48px;
   margin-right: 32px;
@@ -115,6 +108,23 @@ p, li, textarea, label, input, select {
   font-size: 16px;
   color: #231f20;
 }
+
+.liste-section-computer-color-arcade {
+  text-align: justify;
+  margin-left: 60px;
+  font-family: 'Poppins';
+  font-size: 16px;
+  color: #231f20;
+
+}
+
+.titre-section-computer-color-arcade {
+  font-size: 24px;
+  margin: 0 31px 34px 0;
+  font-family: Poppins;
+  text-align: center;
+  font-weight: 600;
+  }
 
 .bouton-ordinateur-1 {
   padding: 10px 36px;
@@ -130,32 +140,24 @@ p, li, textarea, label, input, select {
   text-align: right;
 }
 
+.bloc-ordinateur-2 {
+display: flex;
+justify-content: space-around;
+align-items: flex-start;
+text-align: justify;
+margin-top: 64px;
+margin-bottom: 64px;
+}
 
-.colonnes-2{
-  flex-basis: 0;
+.colonnes2{
+  flex-basis: 320px;
   flex-grow: 1;
 }
 
-.bloc-image-ordinateur-2 {
-  background-image: url(../img/bg-orange.png);
-}
-
-.titre-ordinateur-2 {
-  font-size: 24px;
-  margin: 0 31px 34px 0;
-  font-family: Poppins;
-  text-align: center;
-  font-weight: 600;
-}
-
-.paragraphe-ordinateur-2 {
-  font-family: 'Poppins';
-  font-size: 16px;
-  color: #231f20;
-  margin-left: 48px;
-  margin-right: 32px;
-  margin-bottom: 30px;
-}
+.colonne-bg-orange {
+    background-image: url(../img/bg-orange.png);
+    text-align: right;
+  }
 
 .image-ordinateur-2 {
   width: 378px;
@@ -164,8 +166,9 @@ p, li, textarea, label, input, select {
   display: block;
   margin-right: auto;
   margin-left: auto;
-  mix-blend-mode: darken;
+  mix-blend-mode: darken
 }
+
 
 .bouton-ordinateur-2 {
   padding: 10px 36px;
@@ -174,12 +177,13 @@ p, li, textarea, label, input, select {
   color: #ff6b00;
   font-size: 20px;
   font-weight: 600;
-  margin-left: 1208px;
-  margin-top: 1362px;
-  margin-right: 47px;
+  margin-left: 503px;
+  margin-top: 32px;
+  margin-right: 32px;
   margin-bottom: 86px;
   text-align: right;
 }
+
 
 /*CSS ADVANCE FEATURES */
 
@@ -344,7 +348,12 @@ label {
 
 .bloc-formulaire {
   display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  text-align: justify;
   color: #ffffff;
+  padding-bottom: 597px;
+  border-radius: 10px;
 }
 
 .formulaire-row {
@@ -363,6 +372,34 @@ label {
 
 .colonne-formulaire-2 {
   margin-right: auto;
+}
+
+#message {
+  width: 560px;
+  height: 212px;
+}
+  
+#name {
+  border-radius: 4px;
+  border-color: #231f20;
+  height: 38px;
+  width: 320px;
+}
+  
+#subject {
+  border-radius: 4px;
+  border-color: #231f20;
+  height: 38px;
+  width: 320px;
+  font-family: 'Poppins';
+  
+}
+
+#email {
+  border-radius: 4px;
+  border-color: #231f20;
+  height: 38px;
+  width: 320px;
 }
 
 
